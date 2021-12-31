@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
-  //Using destructuring to create 2 useState const for each name and fname
+  //passing an object 'fullName' with the two const name and fname to avoid to create 2 useState const for each name and fname
   const [fullName, setFullName] = useState({
     name: "",
     fname: ""
